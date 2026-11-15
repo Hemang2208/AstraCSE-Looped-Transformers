@@ -1,0 +1,24 @@
+\begin{table}[t]
+\centering
+\caption{Two seeds, first regime (full validation set, official values) and second regime (Dense-12, two seeds). Gaps are loop minus the comparison model, per seed. The last column gives the paired difference on the CPU subsample with a 95\% interval from resampling batches of four sequences (every 8th official batch, 93 of the 738 batches; Section~\ref{sec:setup}). Intervals reflect sampling of batches, not seed variation. Batch-level bootstrap intervals ignore correlation between batches from the same document or subject, so they likely underestimate uncertainty.}
+\label{tab:paired}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lrrrl}
+\toprule
+Model / gap & Seed 0 & Seed 1 & Mean & Subsample diff. [95\% CI] \\
+\midrule
+Dense-12, v1 & 2.853 & 2.887 & 2.870 & -- \\
+Dense-6, v1 & 2.795 & 2.697 & 2.746 & -- \\
+Loop-6$\times$2, v1 & 4.623 & 4.502 & 4.562 & -- \\
+\midrule
+Matched gap (loop $-$ Dense-6) & 1.827 & 1.805 & 1.816 & +1.753 [+1.656, +1.851] \\
+Compute gap (loop $-$ Dense-12) & 1.769 & 1.616 & 1.692 & +1.567 [+1.472, +1.666] \\
+\midrule
+Dense-12, v2 & 2.015 & 2.009 & 2.012 & -- \\
+Matched gap, v2 (loop $-$ Dense-6) & $-$0.052 & -- & -- & $-$0.052 [$-$0.055, $-$0.048] \\
+Compute gap, v2 (loop $-$ Dense-12) & 0.069 & 0.074 & 0.072 & +0.068 [+0.064, +0.073] \\
+\bottomrule
+\end{tabular}}
+\end{table}

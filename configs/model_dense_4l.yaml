@@ -1,0 +1,45 @@
+# Equal-parameter dense control for model_loop_4x3 (same width, no weight sharing).
+# model_loop_4x3 has 4 unique blocks run three times (depth 12); this dense model has 4 blocks.
+# Everything except n_layer and expected_param_count matches configs/model.yaml.
+# Checked by: python scripts/verify_param_count.py configs/model_dense_4l.yaml
+
+model:
+  vocab_size: 15000
+  d_model: 768
+  n_layer: 4
+  n_head: 12
+  d_head: 64          # must equal d_model / n_head
+  d_ff: 2048
+  max_seq_len: 1024
+  rope: true
+  norm: rmsnorm
+  norm_eps: 1.0e-5
+  activation: swiglu
+  bias: false          # no bias on any linear or norm layer
+  weight_tying: true
+  expected_param_count: 39838464
+
+precision:
+  compute_dtype: bf16
+  optimizer_dtype: fp32
+
+tokenizer:
+  algorithm: byte_level_bpe
+  vocab_size: 15000
+  special_tokens: ["<bos>", "<eos>", "<pad>", "<doc>"]
+
+optimizer:
+  name: adamw
+  betas: [0.9, 0.95]
+  eps: 1.0e-8
+  weight_decay: 0.1
+  grad_clip_norm: 1.0
+
+lr_schedule:
+  peak_lr: 6.0e-4       # provisional — Phase 0 LR sweep (Architecture.md §16.2) picks the final value
+  min_lr_ratio: 0.1
+  warmup_ratio: 0.02
+  schedule: cosine
+
+training:
+  target_effective_batch_tokens: 500000

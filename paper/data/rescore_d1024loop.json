@@ -1,0 +1,16 @@
+[
+  {
+    "full_val_loss": 1.999047256097561,
+    "clean_loss": 2.057074247920871,
+    "copied_loss": 1.2433721736410936,
+    "clean_tokens": 2807661,
+    "copied_tokens": 215187,
+    "batches": 738,
+    "name": "d1024_loop6x2_v2",
+    "config": "configs/model_d1024_loop6x2.yaml",
+    "checkpoint": "step-0008595-final.pt",
+    "precision": "fp32",
+    "reported_val_loss": 1.999047256097561,
+    "reproduces_reported": true
+  }
+]

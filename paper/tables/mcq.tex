@@ -1,0 +1,31 @@
+\begin{table}[t]
+\centering
+\caption{Accuracy (\%) on the 650 MMLU-CS questions under four scoring rules. ``Old'' is the mean loss of question plus choice; CF-norm (primary, fixed before results) and CF-sum are the cloze log-likelihood of the choice given the question, per character and in total; MCF is the log-likelihood of the answer letter. ``A\%'' is how often MCF picks A. Chance is 25\%; always answering C scores 28.8\% and always A 26.0\%. The 95\% interval is about $\pm$3.3 points.}
+\label{tab:mcq}
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{lrrrrr}
+\toprule
+Model & Old & CF-norm & CF-sum & MCF & A\% \\
+\midrule
+Dense-12 & 26.9 & 26.9 & 24.3 & 26.3 & 91 \\
+Dense-6 & 25.5 & 24.3 & 23.2 & 26.8 & 86 \\
+Dense-4 & 26.3 & 27.2 & 22.6 & 25.4 & 82 \\
+Dense-3 & 27.5 & 23.8 & 23.8 & 26.3 & 98 \\
+Loop-6$\times$2 & 28.6 & 26.3 & 24.3 & 26.2 & 100 \\
+Loop-6$\times$2 (LR 3e-4) & 24.2 & 23.7 & 24.6 & 26.0 & 100 \\
+Loop-6$\times$2 (warmup 171) & 25.4 & 24.8 & 25.8 & 25.7 & 98 \\
+Loop-4$\times$3 & 26.6 & 22.9 & 25.5 & 25.8 & 100 \\
+Loop-3$\times$4 & 27.8 & 24.8 & 24.8 & 26.0 & 100 \\
+Dense-12, seed 1 & 27.7 & 26.8 & 23.8 & 24.3 & 80 \\
+Dense-6, seed 1 & 27.7 & 24.0 & 23.7 & 26.3 & 96 \\
+Loop-6$\times$2, seed 1 & 26.5 & 25.7 & 23.7 & 26.3 & 100 \\
+Dense-12 (v2) & 25.7 & 27.4 & 24.6 & 25.2 & 91 \\
+Dense-12, seed 1 (v2) & 28.3 & 27.8 & 25.8 & 25.4 & 98 \\
+Loop-6$\times$2 (v2) & 27.5 & 26.8 & 24.2 & 25.4 & 94 \\
+Dense-6 (v2) & 28.2 & 25.5 & 25.8 & 26.2 & 89 \\
+Dense-12, $d{=}1024$ (v2) & 27.7 & 26.0 & 22.3 & 25.1 & 90 \\
+\quad + 2,048 context & 28.5 & 26.2 & 23.1 & 24.9 & 92 \\
+Loop-6$\times$2, $d{=}1024$ (v2) & 26.6 & 26.5 & 24.9 & 25.5 & 94 \\
+\bottomrule
+\end{tabular}
+\end{table}

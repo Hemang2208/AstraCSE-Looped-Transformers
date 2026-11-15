@@ -1,0 +1,12 @@
+{
+  "vocab_size": 15000,
+  "special_tokens": [
+    "<bos>",
+    "<eos>",
+    "<pad>",
+    "<doc>"
+  ],
+  "vocab_hash": "d26b74388e24a6efe6112aebdd70778afc321e8a503d4f8f32d28bcaefba1f2f",
+  "merges_hash": "c2d10b36f048d949a6a9f2206738d3eca81374907031b92f402c0c2c52a56ddd",
+  "combined_hash": "539570c884f6e1b5c36cf1d4050937fb2fe0c7ad86a2a68e19a05e65cbfeea9c"
+}

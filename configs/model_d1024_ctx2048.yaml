@@ -1,0 +1,47 @@
+# Context extension of AstraCSE-165M from 1024 to 2048 tokens: a short continued
+# pre-training phase started with --init-from on the final d1024_v2 checkpoint.
+# Same architecture and weights as configs/model_d1024.yaml (RoPE has no learned
+# position table, so only max_seq_len changes); a low LR, since the model is
+# already trained, with a slightly longer warmup.
+# Checked by: python scripts/verify_param_count.py configs/model_d1024_ctx2048.yaml
+
+model:
+  vocab_size: 15000
+  d_model: 1024
+  n_layer: 12
+  n_head: 16
+  d_head: 64          # must equal d_model / n_head
+  d_ff: 2688
+  max_seq_len: 2048
+  rope: true
+  norm: rmsnorm
+  norm_eps: 1.0e-5
+  activation: swiglu
+  bias: false          # no bias on any linear or norm layer
+  weight_tying: true
+  expected_param_count: 164807680
+
+precision:
+  compute_dtype: bf16
+  optimizer_dtype: fp32
+
+tokenizer:
+  algorithm: byte_level_bpe
+  vocab_size: 15000
+  special_tokens: ["<bos>", "<eos>", "<pad>", "<doc>"]
+
+optimizer:
+  name: adamw
+  betas: [0.9, 0.95]
+  eps: 1.0e-8
+  weight_decay: 0.1
+  grad_clip_norm: 1.0
+
+lr_schedule:
+  peak_lr: 1.0e-4
+  min_lr_ratio: 0.1
+  warmup_ratio: 0.05
+  schedule: cosine
+
+training:
+  target_effective_batch_tokens: 500000

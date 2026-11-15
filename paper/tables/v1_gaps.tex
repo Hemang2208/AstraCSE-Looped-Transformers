@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\caption{Matched-parameter comparison on corpus v1. Each loop model is paired with the dense model that has the same $K$ unique blocks and no sharing (unique parameters equal up to the 9{,}216-parameter depth embedding). Gap = loop $-$ dense validation loss (nats), on the full subset and on clean tokens. The last row is the warmup ablation: Loop-6$\times$2 with 171 instead of 46 warmup steps, everything else unchanged.}
+\label{tab:gaps}
+\begin{tabular}{crrrr}
+\toprule
+$K$ & Loop & Dense & Gap (full) & Gap (clean) \\
+\midrule
+6 & 4.623 & 2.795 & 1.83 & 1.84 \\
+4 & 4.706 & 2.998 & 1.71 & 1.72 \\
+3 & 4.947 & 3.198 & 1.75 & 1.75 \\
+\midrule
+6, warmup 171 & 4.006 & 2.795 & 1.21 & 1.22 \\
+\bottomrule
+\end{tabular}
+\end{table}

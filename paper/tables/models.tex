@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\caption{Model family. Unique blocks $\times$ applications; ``Apps'' is layer applications per token. All models: $d{=}768$ unless noted, 12 heads, $d_{ff}{=}2048$, vocabulary 15{,}000, context 1{,}024.}
+\label{tab:models}
+\begin{tabular}{lcrr}
+\toprule
+Model & Blocks & Apps & Parameters \\
+\midrule
+Dense-12 & 12 & 12 & 96,473,856 \\
+Dense-6 & 6 & 6 & 53,997,312 \\
+Dense-4 & 4 & 4 & 39,838,464 \\
+Dense-3 & 3 & 3 & 32,759,040 \\
+Loop-6$\times$2 & 6 $\times$ 2 & 12 & 54,006,528 \\
+Loop-4$\times$3 & 4 $\times$ 3 & 12 & 39,847,680 \\
+Loop-3$\times$4 & 3 $\times$ 4 & 12 & 32,768,256 \\
+Dense-12, $d{=}1024$ & 12 & 12 & 164,807,680 \\
+Loop-6$\times$2, $d{=}1024$ & 6 $\times$ 2 & 12 & 90,096,640 \\
+\bottomrule
+\end{tabular}
+\end{table}

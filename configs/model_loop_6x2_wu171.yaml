@@ -1,0 +1,46 @@
+# AstraCSE Loop-Transformer warmup ablation (approved 2026-11-04).
+# Identical to model_loop_6x2.yaml except warmup_ratio. On the v1 schedule (2,304 steps)
+# int(2304 * 0.0745) = 171 warmup steps, the same warmup as the v2 runs (int(8595 * 0.02) = 171),
+# instead of 46. Tests whether the short v1 warmup causes the v1 loop penalty.
+
+model:
+  vocab_size: 15000
+  d_model: 768
+  n_layer: 12
+  n_unique_layers: 6
+  n_head: 12
+  d_head: 64          # must equal d_model / n_head
+  d_ff: 2048
+  max_seq_len: 1024
+  rope: true
+  norm: rmsnorm
+  norm_eps: 1.0e-5
+  activation: swiglu
+  bias: false          # no bias on any linear or norm layer
+  weight_tying: true
+  expected_param_count: 54006528
+
+precision:
+  compute_dtype: bf16
+  optimizer_dtype: fp32
+
+tokenizer:
+  algorithm: byte_level_bpe
+  vocab_size: 15000
+  special_tokens: ["<bos>", "<eos>", "<pad>", "<doc>"]
+
+optimizer:
+  name: adamw
+  betas: [0.9, 0.95]
+  eps: 1.0e-8
+  weight_decay: 0.1
+  grad_clip_norm: 1.0
+
+lr_schedule:
+  peak_lr: 6.0e-4
+  min_lr_ratio: 0.1
+  warmup_ratio: 0.0745
+  schedule: cosine
+
+training:
+  target_effective_batch_tokens: 500000

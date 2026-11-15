@@ -1,0 +1,80 @@
+{
+  "rule": "flag if more than 1% of unique 13-grams occur in the shards",
+  "shards": 1025,
+  "items": 650,
+  "flagged": 0,
+  "any_hit": 0,
+  "unique_ngrams_seen": 0,
+  "top_items": [
+    {
+      "id": "mmlu_computer_security_0000",
+      "subject": "computer_security",
+      "ngrams": 33,
+      "found": 0,
+      "fraction": 0.0
+    },
+    {
+      "id": "mmlu_computer_security_0001",
+      "subject": "computer_security",
+      "ngrams": 125,
+      "found": 0,
+      "fraction": 0.0
+    },
+    {
+      "id": "mmlu_computer_security_0002",
+      "subject": "computer_security",
+      "ngrams": 212,
+      "found": 0,
+      "fraction": 0.0
+    },
+    {
+      "id": "mmlu_computer_security_0003",
+      "subject": "computer_security",
+      "ngrams": 21,
+      "found": 0,
+      "fraction": 0.0
+    },
+    {
+      "id": "mmlu_computer_security_0004",
+      "subject": "computer_security",
+      "ngrams": 25,
+      "found": 0,
+      "fraction": 0.0
+    },
+    {
+      "id": "mmlu_computer_security_0005",
+      "subject": "computer_security",
+      "ngrams": 45,
+      "found": 0,
+      "fraction": 0.0
+    },
+    {
+      "id": "mmlu_computer_security_0006",
+      "subject": "computer_security",
+      "ngrams": 190,
+      "found": 0,
+      "fraction": 0.0
+    },
+    {
+      "id": "mmlu_computer_security_0007",
+      "subject": "computer_security",
+      "ngrams": 29,
+      "found": 0,
+      "fraction": 0.0
+    },
+    {
+      "id": "mmlu_computer_security_0008",
+      "subject": "computer_security",
+      "ngrams": 37,
+      "found": 0,
+      "fraction": 0.0
+    },
+    {
+      "id": "mmlu_computer_security_0009",
+      "subject": "computer_security",
+      "ngrams": 26,
+      "found": 0,
+      "fraction": 0.0
+    }
+  ]
+}

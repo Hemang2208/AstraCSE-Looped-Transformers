@@ -1,0 +1,30 @@
+[
+  {
+    "full_val_loss": 2.1353372713414633,
+    "clean_loss": 2.192329868371023,
+    "copied_loss": 1.3921754671568962,
+    "clean_tokens": 2807661,
+    "copied_tokens": 215187,
+    "batches": 738,
+    "name": "dense_6l_v2",
+    "config": "configs/model_dense_6l.yaml",
+    "checkpoint": "step-0008595-final.pt",
+    "precision": "fp32",
+    "reported_val_loss": 2.1353372713414633,
+    "reproduces_reported": true
+  },
+  {
+    "full_val_loss": 4.006076388888889,
+    "clean_loss": 4.073650570801145,
+    "copied_loss": 3.1191893756103486,
+    "clean_tokens": 2807661,
+    "copied_tokens": 215187,
+    "batches": 738,
+    "name": "loop_6x2_wu171",
+    "config": "configs/model_loop_6x2_wu171.yaml",
+    "checkpoint": "step-0002302-final.pt",
+    "precision": "fp32",
+    "reported_val_loss": 4.006076388888889,
+    "reproduces_reported": true
+  }
+]

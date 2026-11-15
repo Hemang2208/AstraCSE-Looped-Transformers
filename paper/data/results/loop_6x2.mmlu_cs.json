@@ -1,0 +1,39 @@
+{
+  "val_loss": 4.622544037940379,
+  "perplexity": 101.75256551794128,
+  "mcq_accuracy": 0.28615384615384615,
+  "mcq_correct": 186,
+  "mcq_total": 650,
+  "per_subject": {
+    "computer_security": {
+      "accuracy": 0.25,
+      "correct": 25,
+      "total": 100
+    },
+    "college_computer_science": {
+      "accuracy": 0.28421052631578947,
+      "correct": 27,
+      "total": 95
+    },
+    "high_school_computer_science": {
+      "accuracy": 0.26,
+      "correct": 26,
+      "total": 100
+    },
+    "machine_learning": {
+      "accuracy": 0.2818181818181818,
+      "correct": 31,
+      "total": 110
+    },
+    "electrical_engineering": {
+      "accuracy": 0.32413793103448274,
+      "correct": 47,
+      "total": 145
+    },
+    "abstract_algebra": {
+      "accuracy": 0.3,
+      "correct": 30,
+      "total": 100
+    }
+  }
+}

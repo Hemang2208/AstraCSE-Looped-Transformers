@@ -1,0 +1,95 @@
+[
+  {
+    "name": "baseline_v2",
+    "step": 400,
+    "full_val_loss": 4.428607723577236,
+    "clean_loss": 4.4505084167444835,
+    "batches": 738
+  },
+  {
+    "name": "baseline_v2",
+    "step": 1200,
+    "full_val_loss": 2.6502371273712737,
+    "clean_loss": 2.6938205027851394,
+    "batches": 738
+  },
+  {
+    "name": "baseline_v2",
+    "step": 2400,
+    "full_val_loss": 2.4305079183604335,
+    "clean_loss": 2.478964831411388,
+    "batches": 738
+  },
+  {
+    "name": "baseline_v2",
+    "step": 4000,
+    "full_val_loss": 2.2230373475609757,
+    "clean_loss": 2.2776516048121342,
+    "batches": 738
+  },
+  {
+    "name": "baseline_v2",
+    "step": 6000,
+    "full_val_loss": 2.08447662601626,
+    "clean_loss": 2.141035515049129,
+    "batches": 738
+  },
+  {
+    "name": "baseline_v2",
+    "step": 8000,
+    "full_val_loss": 2.02001820799458,
+    "clean_loss": 2.0783679520097165,
+    "batches": 738
+  },
+  {
+    "name": "loop6x2_v2",
+    "step": 400,
+    "full_val_loss": 5.198128387533876,
+    "clean_loss": 5.212114541675897,
+    "batches": 738
+  },
+  {
+    "name": "loop6x2_v2",
+    "step": 1200,
+    "full_val_loss": 2.7648998560298104,
+    "clean_loss": 2.8068625922481867,
+    "batches": 738
+  },
+  {
+    "name": "loop6x2_v2",
+    "step": 2400,
+    "full_val_loss": 2.511845782520325,
+    "clean_loss": 2.560335169420486,
+    "batches": 738
+  },
+  {
+    "name": "loop6x2_v2",
+    "step": 4000,
+    "full_val_loss": 2.2914126016260163,
+    "clean_loss": 2.3448238279957714,
+    "batches": 738
+  },
+  {
+    "name": "loop6x2_v2",
+    "step": 6000,
+    "full_val_loss": 2.1484480860433606,
+    "clean_loss": 2.2042130226139403,
+    "batches": 738
+  },
+  {
+    "name": "loop6x2_v2",
+    "step": 8000,
+    "full_val_loss": 2.0881182249322494,
+    "clean_loss": 2.145358285033085,
+    "batches": 738
+  },
+  {
+    "name": "loop6x2_v2",
+    "step": "final",
+    "full_val_loss": 2.0837250169376693,
+    "clean_loss": 2.1403278206197824,
+    "batches": 738,
+    "reported_val_loss": 2.0837250169376693,
+    "reproduces_reported": true
+  }
+]

@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Second seed on corpus v1. Validation loss (nats, full set) for seed 0 and seed 1, the change between seeds. The gap rows are loop minus the comparison model, for each seed.}
+\label{tab:seeds}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrr}
+\toprule
+Model / gap & Seed 0 & Seed 1 & Change \\
+\midrule
+Dense-12 & 2.853 & 2.887 & $+0.034$ \\
+Dense-6 & 2.795 & 2.697 & $-0.098$ \\
+Loop-6$\times$2 & 4.623 & 4.502 & $-0.120$ \\
+\midrule
+Gap, matched (vs Dense-6) & 1.827 & 1.805 & $-0.022$ \\
+Gap, compute (vs Dense-12) & 1.769 & 1.616 & $-0.154$ \\
+\bottomrule
+\end{tabular}
+\end{table}

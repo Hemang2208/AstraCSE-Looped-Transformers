@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\caption{Corpus v2: mean token loss (nats) per validation shard, on the strided batches of the official evaluation. The gap is nearly constant across shards.}
+\label{tab:shards}
+\begin{tabular}{crrr}
+\toprule
+Shard & Dense-12 & Loop-6$\times$2 & Gap \\
+\midrule
+0 & 2.146 & 2.214 & $+0.068$ \\
+1 & 1.461 & 1.522 & $+0.061$ \\
+2 & 1.623 & 1.685 & $+0.062$ \\
+3 & 1.532 & 1.595 & $+0.063$ \\
+4 & 2.615 & 2.697 & $+0.082$ \\
+5 & 2.923 & 3.006 & $+0.083$ \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,29 @@
+# AstraCSE-100M Python dependencies
+# Install with: pip install -r requirements.txt
+
+# Phase 0 — data download (small sources)
+requests>=2.31
+tqdm>=4.66
+beautifulsoup4>=4.12
+
+# Phase 0 (large corpus) — HuggingFace sources
+datasets>=2.14          # streaming download (Wikipedia, ArXiv, The Stack)
+huggingface_hub>=0.19   # authentication + download utilities
+
+# Phase 1 — data processing
+tokenizers>=0.19        # byte-level BPE tokenizer training
+datasketch>=1.6         # MinHash/LSH near-duplicate removal
+psutil>=5.9             # memory safety check during dedup on large corpora
+numpy>=1.26
+pyyaml>=6.0
+pymupdf>=1.23           # PDF text extraction (OSTEP, ODS)
+
+# Phase 2 / 3 / 4 — model + training
+torch>=2.2              # BF16 + scaled_dot_product_attention required
+pytest>=8.0
+
+# Phase 4 — checkpoint sync + AWS setup + launch
+boto3>=1.34
+
+# Phase 6 — optional INT8 quantization
+# bitsandbytes>=0.43    # uncomment for INT8 export

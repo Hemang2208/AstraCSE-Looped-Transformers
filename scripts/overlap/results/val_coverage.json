@@ -1,0 +1,44 @@
+{
+  "val_tokens": 24184832,
+  "any_fraction": 0.19627711286148278,
+  "long_fraction": 0.07568036858804725,
+  "train_shards": 275,
+  "shards": [
+    {
+      "shard": "shard_0000.bin",
+      "tokens": 4194304,
+      "any_tokens": 672138,
+      "long_tokens": 273851
+    },
+    {
+      "shard": "shard_0001.bin",
+      "tokens": 4194304,
+      "any_tokens": 1192223,
+      "long_tokens": 528398
+    },
+    {
+      "shard": "shard_0002.bin",
+      "tokens": 4194304,
+      "any_tokens": 1163364,
+      "long_tokens": 434102
+    },
+    {
+      "shard": "shard_0003.bin",
+      "tokens": 4194304,
+      "any_tokens": 1066993,
+      "long_tokens": 433709
+    },
+    {
+      "shard": "shard_0004.bin",
+      "tokens": 4194304,
+      "any_tokens": 466048,
+      "long_tokens": 137637
+    },
+    {
+      "shard": "shard_0005.bin",
+      "tokens": 3213312,
+      "any_tokens": 186163,
+      "long_tokens": 22620
+    }
+  ]
+}

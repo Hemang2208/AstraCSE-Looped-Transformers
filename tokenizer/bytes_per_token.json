@@ -1,0 +1,116 @@
+[
+  {
+    "subject": "arxiv_algo_theory",
+    "bytes": 3833156,
+    "tokens": 829844,
+    "bytes_per_token": 4.619
+  },
+  {
+    "subject": "arxiv_db_se_sec",
+    "bytes": 3948814,
+    "tokens": 839545,
+    "bytes_per_token": 4.704
+  },
+  {
+    "subject": "arxiv_os_networks",
+    "bytes": 3861466,
+    "tokens": 825599,
+    "bytes_per_token": 4.677
+  },
+  {
+    "subject": "c",
+    "bytes": 16984211,
+    "tokens": 5823327,
+    "bytes_per_token": 2.917
+  },
+  {
+    "subject": "c++",
+    "bytes": 22106578,
+    "tokens": 7044531,
+    "bytes_per_token": 3.138
+  },
+  {
+    "subject": "go",
+    "bytes": 16873582,
+    "tokens": 5733911,
+    "bytes_per_token": 2.943
+  },
+  {
+    "subject": "ietf_rfcs",
+    "bytes": 1262467,
+    "tokens": 299361,
+    "bytes_per_token": 4.217
+  },
+  {
+    "subject": "java",
+    "bytes": 13018242,
+    "tokens": 3680553,
+    "bytes_per_token": 3.537
+  },
+  {
+    "subject": "javascript",
+    "bytes": 11071037,
+    "tokens": 3637859,
+    "bytes_per_token": 3.043
+  },
+  {
+    "subject": "ods",
+    "bytes": 101364,
+    "tokens": 33448,
+    "bytes_per_token": 3.03
+  },
+  {
+    "subject": "ostep",
+    "bytes": 978413,
+    "tokens": 278269,
+    "bytes_per_token": 3.516
+  },
+  {
+    "subject": "postgresql",
+    "bytes": 43368,
+    "tokens": 13598,
+    "bytes_per_token": 3.189
+  },
+  {
+    "subject": "python",
+    "bytes": 16411997,
+    "tokens": 5073019,
+    "bytes_per_token": 3.235
+  },
+  {
+    "subject": "python_docs",
+    "bytes": 954875,
+    "tokens": 250142,
+    "bytes_per_token": 3.817
+  },
+  {
+    "subject": "rust",
+    "bytes": 19098780,
+    "tokens": 5908282,
+    "bytes_per_token": 3.233
+  },
+  {
+    "subject": "sqlite",
+    "bytes": 532091,
+    "tokens": 145883,
+    "bytes_per_token": 3.647
+  },
+  {
+    "subject": "wikibooks",
+    "bytes": 153278,
+    "tokens": 36674,
+    "bytes_per_token": 4.179
+  },
+  {
+    "subject": "wikipedia",
+    "bytes": 2816549,
+    "tokens": 659311,
+    "bytes_per_token": 4.272
+  },
+  {
+    "subject": "wikipedia_large",
+    "bytes": 12961545,
+    "tokens": 3630507,
+    "bytes_per_token": 3.57
+  }
+]

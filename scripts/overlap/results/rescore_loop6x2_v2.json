@@ -1,0 +1,16 @@
+[
+  {
+    "full_val_loss": 2.0837250169376693,
+    "clean_loss": 2.1403278206197824,
+    "copied_loss": 1.3446603092334943,
+    "clean_tokens": 2807661,
+    "copied_tokens": 215187,
+    "batches": 738,
+    "name": "loop6x2_v2",
+    "config": "configs/model_loop_6x2.yaml",
+    "checkpoint": "step-0008595-final.pt",
+    "precision": "fp32",
+    "reported_val_loss": 2.0837250169376693,
+    "reproduces_reported": true
+  }
+]

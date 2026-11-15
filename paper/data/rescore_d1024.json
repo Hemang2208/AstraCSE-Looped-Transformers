@@ -1,0 +1,30 @@
+[
+  {
+    "full_val_loss": 1.9273718030149052,
+    "clean_loss": 1.9863316000782447,
+    "copied_loss": 1.1595716020847295,
+    "clean_tokens": 2807661,
+    "copied_tokens": 215187,
+    "batches": 738,
+    "name": "d1024_v2",
+    "config": "configs/model_d1024.yaml",
+    "checkpoint": "step-0008595-final.pt",
+    "precision": "fp32",
+    "reported_val_loss": 1.9273718030149052,
+    "reproduces_reported": true
+  },
+  {
+    "full_val_loss": 1.924023966802168,
+    "clean_loss": 1.9831477135490634,
+    "copied_loss": 1.153273330539425,
+    "clean_tokens": 2807661,
+    "copied_tokens": 215187,
+    "batches": 738,
+    "name": "d1024_ctx2048",
+    "config": "configs/model_d1024_ctx2048.yaml",
+    "checkpoint": "step-0000400-final.pt",
+    "precision": "fp32",
+    "reported_val_loss": 1.924023966802168,
+    "reproduces_reported": true
+  }
+]

@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Second training regime (corpus v2: 4.30B tokens, one epoch, 8{,}595 steps, 171 warmup steps; the v1 tokens are a subset of v2). Validation loss in nats on the same v1 validation set. $\Delta$ = v2 clean $-$ v1 clean. The $d{=}1024$ rows have no v1 run. ``+ 2,048 context'' continues the $d{=}1024$ model for 400 steps at 2{,}048 tokens and is evaluated at 1{,}024 tokens. MCQ is CF-norm accuracy (\%, Table~\ref{tab:mcq}). One seed per row.}
+\label{tab:v2}
+\setlength{\tabcolsep}{2.8pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+Model & Params & v1 clean & v2 val & v2 clean & $\Delta$ & MCQ \\
+\midrule
+Dense-12 & 96.5M & 2.914 & 2.015 & 2.072 & $-0.84$ & 27.4 \\
+Loop-6$\times$2 & 54.0M & 4.692 & 2.084 & 2.140 & $-2.55$ & 26.8 \\
+Dense-6 & 54.0M & 2.856 & 2.135 & 2.192 & $-0.66$ & 25.5 \\
+Dense-12, $d{=}1024$ & 164.8M & -- & 1.927 & 1.986 & -- & 26.0 \\
+\quad + 2,048 context & 164.8M & -- & 1.924 & 1.983 & -- & 26.2 \\
+Loop-6$\times$2, $d{=}1024$ & 90.1M & -- & 1.999 & 2.057 & -- & 26.5 \\
+\bottomrule
+\end{tabular}
+\end{table}

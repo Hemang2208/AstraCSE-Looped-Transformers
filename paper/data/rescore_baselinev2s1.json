@@ -1,0 +1,16 @@
+[
+  {
+    "full_val_loss": 2.009366001863144,
+    "clean_loss": 2.067423974130776,
+    "copied_loss": 1.2512179484662065,
+    "clean_tokens": 2807661,
+    "copied_tokens": 215187,
+    "batches": 738,
+    "name": "baseline_v2_s1",
+    "config": "configs/model.yaml",
+    "checkpoint": "step-0008595-final.pt",
+    "precision": "fp32",
+    "reported_val_loss": 2.009366001863144,
+    "reproduces_reported": true
+  }
+]

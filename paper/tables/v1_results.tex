@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\caption{Corpus v1 (1.15B tokens, one epoch, 2{,}302 steps). Validation loss in nats on the full strided subset and on the clean tokens (Section~\ref{sec:overlap}). Perplexity is on the full subset. MCQ is accuracy on the 650 MMLU-CS questions with the primary CF-norm rule (Table~\ref{tab:mcq}; chance 25\%, 95\% interval about $\pm$3.3 points). One seed per row.}
+\label{tab:v1}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+Model & Params & Apps & Val & Clean & PPL & MCQ \\
+\midrule
+Dense-12 & 96.5M & 12 & 2.853 & 2.914 & 17.3 & 26.9 \\
+Dense-6 & 54.0M & 6 & 2.795 & 2.856 & 16.4 & 24.3 \\
+Dense-4 & 39.8M & 4 & 2.998 & 3.058 & 20.0 & 27.2 \\
+Dense-3 & 32.8M & 3 & 3.198 & 3.259 & 24.5 & 23.8 \\
+Loop-6$\times$2 & 54.0M & 12 & 4.623 & 4.692 & 101.8 & 26.3 \\
+Loop-6$\times$2 (LR 3e-4) & 54.0M & 12 & 4.592 & 4.660 & 98.7 & 23.7 \\
+Loop-6$\times$2 (warmup 171) & 54.0M & 12 & 4.006 & 4.074 & 54.9 & 24.8 \\
+Loop-4$\times$3 & 39.8M & 12 & 4.706 & 4.774 & 110.6 & 22.9 \\
+Loop-3$\times$4 & 32.8M & 12 & 4.947 & 5.010 & 140.7 & 24.8 \\
+\bottomrule
+\end{tabular}
+\end{table}

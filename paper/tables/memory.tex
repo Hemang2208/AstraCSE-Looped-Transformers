@@ -1,0 +1,23 @@
+\begin{table}[t]
+\centering
+\caption{Stored parameters, weight memory and forward compute per token. Weight memory is the parameter count stored in bfloat16 (2 bytes each). Forward GFLOPs count two operations per weight applied to a token, including the tied output projection; attention score products, which are the same for every 12-layer model of a given width, are excluded. Sharing reduces storage but not compute.}
+\label{tab:memory}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lrrrr}
+\toprule
+Model & Unique params & Layers per token & Weights (MB) & Fwd GFLOPs \\
+\midrule
+Dense-12 & 96.5M & 12 & 192.9 & 0.193 \\
+Dense-6 & 54.0M & 6 & 108.0 & 0.108 \\
+Dense-4 & 39.8M & 4 & 79.7 & 0.080 \\
+Dense-3 & 32.8M & 3 & 65.5 & 0.066 \\
+Loop-6$\times$2 & 54.0M & 12 & 108.0 & 0.193 \\
+Loop-4$\times$3 & 39.8M & 12 & 79.7 & 0.193 \\
+Loop-3$\times$4 & 32.8M & 12 & 65.5 & 0.193 \\
+Dense-12, $d{=}1024$ & 164.8M & 12 & 329.6 & 0.330 \\
+Loop-6$\times$2, $d{=}1024$ & 90.1M & 12 & 180.2 & 0.330 \\
+\bottomrule
+\end{tabular}}
+\end{table}

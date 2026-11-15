@@ -1,0 +1,293 @@
+{
+  "mmlu_cs": {
+    "rule": "flag if more than 1% of unique 13-grams occur in training",
+    "items": 650,
+    "flagged": 0,
+    "any_hit": 0,
+    "by_subject": {
+      "computer_security": {
+        "items": 100,
+        "any_hit": 0,
+        "flagged": 0
+      },
+      "college_computer_science": {
+        "items": 95,
+        "any_hit": 0,
+        "flagged": 0
+      },
+      "high_school_computer_science": {
+        "items": 100,
+        "any_hit": 0,
+        "flagged": 0
+      },
+      "machine_learning": {
+        "items": 110,
+        "any_hit": 0,
+        "flagged": 0
+      },
+      "electrical_engineering": {
+        "items": 145,
+        "any_hit": 0,
+        "flagged": 0
+      },
+      "abstract_algebra": {
+        "items": 100,
+        "any_hit": 0,
+        "flagged": 0
+      }
+    },
+    "top_items": [
+      {
+        "id": "mmlu_computer_security_0000",
+        "subject": "computer_security",
+        "ngrams": 33,
+        "found": 0,
+        "fraction": 0.0,
+        "question": "Which of the following styles of fuzzer is more likely to explore paths covering every line of code in the following program?"
+      },
+      {
+        "id": "mmlu_computer_security_0001",
+        "subject": "computer_security",
+        "ngrams": 125,
+        "found": 0,
+        "fraction": 0.0,
+        "question": "Assume that a TLS connection has been established successfully between a client and a server. Establishing the session included checking the server certificate "
+      },
+      {
+        "id": "mmlu_computer_security_0002",
+        "subject": "computer_security",
+        "ngrams": 212,
+        "found": 0,
+        "fraction": 0.0,
+        "question": "MIT’s Kerberos KDC server has a maximum ticket lifetime of 24 hours (for most user principals). What ensures that an expired Kerberos ticket can no longer be us"
+      },
+      {
+        "id": "mmlu_computer_security_0003",
+        "subject": "computer_security",
+        "ngrams": 21,
+        "found": 0,
+        "fraction": 0.0,
+        "question": "In Message Condentiality, the transmitted message must make sense to only intended"
+      },
+      {
+        "id": "mmlu_computer_security_0004",
+        "subject": "computer_security",
+        "ngrams": 25,
+        "found": 0,
+        "fraction": 0.0,
+        "question": "Which of the following is a remote Trojan?"
+      },
+      {
+        "id": "mmlu_computer_security_0005",
+        "subject": "computer_security",
+        "ngrams": 45,
+        "found": 0,
+        "fraction": 0.0,
+        "question": "______________ is a widespread app’s coding mistake made by developers which could be exploited by an attacker for gaining access or malfunctioning your system."
+      },
+      {
+        "id": "mmlu_computer_security_0006",
+        "subject": "computer_security",
+        "ngrams": 190,
+        "found": 0,
+        "fraction": 0.0,
+        "question": "Consider the paper Native Client: A Sandbox for Portable, Untrusted x86 Native Code by Yee et al. Ben Bitdiddle notes that NaCl uses Intel x86 segmentation to e"
+      },
+      {
+        "id": "mmlu_computer_security_0007",
+        "subject": "computer_security",
+        "ngrams": 29,
+        "found": 0,
+        "fraction": 0.0,
+        "question": "____________ is also a part of darknet that is employed for transferring files anonymously."
+      },
+      {
+        "id": "mmlu_computer_security_0008",
+        "subject": "computer_security",
+        "ngrams": 37,
+        "found": 0,
+        "fraction": 0.0,
+        "question": "Why apps developed in languages like C, C++ is prone to Buffer-overflow?"
+      },
+      {
+        "id": "mmlu_computer_security_0009",
+        "subject": "computer_security",
+        "ngrams": 26,
+        "found": 0,
+        "fraction": 0.0,
+        "question": "Man in the middle attack can endanger the security of Diffie Hellman method if two parties are not"
+      },
+      {
+        "id": "mmlu_computer_security_0010",
+        "subject": "computer_security",
+        "ngrams": 66,
+        "found": 0,
+        "fraction": 0.0,
+        "question": "An integer overflow occurs when"
+      },
+      {
+        "id": "mmlu_computer_security_0011",
+        "subject": "computer_security",
+        "ngrams": 234,
+        "found": 0,
+        "fraction": 0.0,
+        "question": "Let HH be a Merkle-Damgard hash function is H:X^{\\leq L} \\to TH:X^≤L  →T. Construct a MAC from this HH as follows: \\ \\ S(k,m) = H(k \\| m)  S(k,m)=H(k∥m). This m"
+      },
+      {
+        "id": "mmlu_computer_security_0012",
+        "subject": "computer_security",
+        "ngrams": 99,
+        "found": 0,
+        "fraction": 0.0,
+        "question": "Suppose that Alice and Bob sent confidential text messages to one another last month through an encrypted messaging system. Alice and Bob are worried that an ad"
+      },
+      {
+        "id": "mmlu_computer_security_0013",
+        "subject": "computer_security",
+        "ngrams": 21,
+        "found": 0,
+        "fraction": 0.0,
+        "question": "The AH Protocol provides source authentication and data integrity, but not"
+      },
+      {
+        "id": "mmlu_computer_security_0014",
+        "subject": "computer_security",
+        "ngrams": 21,
+        "found": 0,
+        "fraction": 0.0,
+        "question": "Which of the following is not a security exploit?"
+      },
+      {
+        "id": "mmlu_computer_security_0015",
+        "subject": "computer_security",
+        "ngrams": 19,
+        "found": 0,
+        "fraction": 0.0,
+        "question": "_______________ is the central node of 802.11 wireless operations."
+      },
+      {
+        "id": "mmlu_computer_security_0016",
+        "subject": "computer_security",
+        "ngrams": 13,
+        "found": 0,
+        "fraction": 0.0,
+        "question": "In MD-5 the length of the message digest is"
+      },
+      {
+        "id": "mmlu_computer_security_0017",
+        "subject": "computer_security",
+        "ngrams": 73,
+        "found": 0,
+        "fraction": 0.0,
+        "question": "What is Nmap?"
+      },
+      {
+        "id": "mmlu_computer_security_0018",
+        "subject": "computer_security",
+        "ngrams": 16,
+        "found": 0,
+        "fraction": 0.0,
+        "question": "How do you prevent SQL injection?"
+      },
+      {
+        "id": "mmlu_computer_security_0019",
+        "subject": "computer_security",
+        "ngrams": 83,
+        "found": 0,
+        "fraction": 0.0,
+        "question": "What does it mean to \"be stealthy\" during a penetration test?"
+      },
+      {
+        "id": "mmlu_computer_security_0020",
+        "subject": "computer_security",
+        "ngrams": 47,
+        "found": 0,
+        "fraction": 0.0,
+        "question": "Which of the following is not a transport layer vulnerability?"
+      },
+      {
+        "id": "mmlu_computer_security_0021",
+        "subject": "computer_security",
+        "ngrams": 149,
+        "found": 0,
+        "fraction": 0.0,
+        "question": "In Brumley and Boneh’s paper on side-channel attacks, why does blinding prevent the timing attack from working?"
+      },
+      {
+        "id": "mmlu_computer_security_0022",
+        "subject": "computer_security",
+        "ngrams": 125,
+        "found": 0,
+        "fraction": 0.0,
+        "question": "The openSSL implementation described in “Remote Timing Attacks are Practical” (by Brumley and Boneh) uses the following performance optimizations: Chinese Remai"
+      },
+      {
+        "id": "mmlu_computer_security_0023",
+        "subject": "computer_security",
+        "ngrams": 18,
+        "found": 0,
+        "fraction": 0.0,
+        "question": "Public key encryption is advantageous over Symmetric key Cryptography because of"
+      },
+      {
+        "id": "mmlu_computer_security_0024",
+        "subject": "computer_security",
+        "ngrams": 57,
+        "found": 0,
+        "fraction": 0.0,
+        "question": "The __________ was a huge marketplace of Dark Web specifically famous for selling of illegal drugs & narcotics as well as you can find a wide range of other goo"
+      }
+    ]
+  },
+  "validation": {
+    "val_tokens": 24184832,
+    "any_fraction": 0.19627711286148278,
+    "long_fraction": 0.07568036858804725,
+    "clean_fraction": 0.9243196314119527,
+    "shards": [
+      {
+        "index": 0,
+        "shard": "shard_0000.bin",
+        "tokens": 4194304,
+        "any_fraction": 0.16025018692016602,
+        "long_fraction": 0.06529116630554199
+      },
+      {
+        "index": 1,
+        "shard": "shard_0001.bin",
+        "tokens": 4194304,
+        "any_fraction": 0.28424811363220215,
+        "long_fraction": 0.12597990036010742
+      },
+      {
+        "index": 2,
+        "shard": "shard_0002.bin",
+        "tokens": 4194304,
+        "any_fraction": 0.27736759185791016,
+        "long_fraction": 0.10349798202514648
+      },
+      {
+        "index": 3,
+        "shard": "shard_0003.bin",
+        "tokens": 4194304,
+        "any_fraction": 0.2543909549713135,
+        "long_fraction": 0.10340428352355957
+      },
+      {
+        "index": 4,
+        "shard": "shard_0004.bin",
+        "tokens": 4194304,
+        "any_fraction": 0.111114501953125,
+        "long_fraction": 0.03281521797180176
+      },
+      {
+        "index": 5,
+        "shard": "shard_0005.bin",
+        "tokens": 3213312,
+        "any_fraction": 0.05793492819869343,
+        "long_fraction": 0.007039465822179732
+      }
+    ]
+  },
+  "train_shards": 275
+}

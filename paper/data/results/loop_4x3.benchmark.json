@@ -1,0 +1,57 @@
+{
+  "mcq_accuracy": 0.1,
+  "mcq_correct": 1,
+  "mcq_total": 10,
+  "per_subject": {
+    "computer_programming": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 1
+    },
+    "data_structures": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 1
+    },
+    "algorithms": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 1
+    },
+    "operating_systems": {
+      "accuracy": 1.0,
+      "correct": 1,
+      "total": 1
+    },
+    "computer_networks": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 1
+    },
+    "database_systems": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 1
+    },
+    "computer_architecture": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 1
+    },
+    "theory_of_computation": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 1
+    },
+    "software_engineering": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 1
+    },
+    "cybersecurity": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 1
+    }
+  }
+}

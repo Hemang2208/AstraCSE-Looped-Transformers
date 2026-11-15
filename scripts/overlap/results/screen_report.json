@@ -1,0 +1,223 @@
+{
+  "queries": 2000,
+  "self_test": {
+    "windows": 54,
+    "hit_rate": 1.0
+  },
+  "rejected_as_v1_copies": [
+    "shard_0003.bin"
+  ],
+  "control": {
+    "shards": 75,
+    "tokens": 314572800,
+    "queries_with_match": 160,
+    "total_matches": 33741
+  },
+  "sample": {
+    "shards": 75,
+    "tokens": 314572800,
+    "shard_names": [
+      "shard_1300.bin",
+      "shard_1278.bin",
+      "shard_1127.bin",
+      "shard_1429.bin",
+      "shard_1654.bin",
+      "shard_1269.bin",
+      "shard_1038.bin",
+      "shard_1298.bin",
+      "shard_1302.bin",
+      "shard_1658.bin",
+      "shard_1055.bin",
+      "shard_1368.bin",
+      "shard_1343.bin",
+      "shard_1694.bin",
+      "shard_1692.bin",
+      "shard_1073.bin",
+      "shard_1620.bin",
+      "shard_1082.bin",
+      "shard_1595.bin",
+      "shard_1555.bin",
+      "shard_1138.bin",
+      "shard_1621.bin",
+      "shard_1042.bin",
+      "shard_1279.bin",
+      "shard_1218.bin",
+      "shard_1610.bin",
+      "shard_1219.bin",
+      "shard_1020.bin",
+      "shard_1016.bin",
+      "shard_1260.bin",
+      "shard_1058.bin",
+      "shard_1715.bin",
+      "shard_1748.bin",
+      "shard_1216.bin",
+      "shard_1075.bin",
+      "shard_1738.bin",
+      "shard_1578.bin",
+      "shard_1452.bin",
+      "shard_1342.bin",
+      "shard_1379.bin",
+      "shard_1607.bin",
+      "shard_1308.bin",
+      "shard_1636.bin",
+      "shard_1067.bin",
+      "shard_1021.bin",
+      "shard_1545.bin",
+      "shard_1043.bin",
+      "shard_1040.bin",
+      "shard_1600.bin",
+      "shard_1088.bin",
+      "shard_1287.bin",
+      "shard_1122.bin",
+      "shard_1388.bin",
+      "shard_1572.bin",
+      "shard_1703.bin",
+      "shard_1671.bin",
+      "shard_1472.bin",
+      "shard_1664.bin",
+      "shard_1662.bin",
+      "shard_1146.bin",
+      "shard_1585.bin",
+      "shard_1378.bin",
+      "shard_1205.bin",
+      "shard_1604.bin",
+      "shard_1332.bin",
+      "shard_1290.bin",
+      "shard_1527.bin",
+      "shard_1293.bin",
+      "shard_1625.bin",
+      "shard_1249.bin",
+      "shard_1457.bin",
+      "shard_1557.bin",
+      "shard_1186.bin",
+      "shard_1592.bin",
+      "shard_1223.bin"
+    ],
+    "queries_with_match": 18,
+    "total_matches": 65
+  },
+  "control_examples": [
+    {
+      "val_window": "shard_0001.bin:1123043",
+      "matched_in": "shard_0036.bin",
+      "pos": 30692,
+      "text": "/LICENSE-2.0\n * Unless required by applicable law"
+    },
+    {
+      "val_window": "shard_0002.bin:593032",
+      "matched_in": "shard_0036.bin",
+      "pos": 30710,
+      "text": ", software\n * distributed under the License is distributed on an \""
+    },
+    {
+      "val_window": "shard_0001.bin:1545836",
+      "matched_in": "shard_0036.bin",
+      "pos": 30750,
+      "text": " specific language governing permissions and\n * limitations under the License.\n"
+    },
+    {
+      "val_window": "shard_0001.bin:1802822",
+      "matched_in": "shard_0036.bin",
+      "pos": 34408,
+      "text": " to in writing, software\n// distributed under the License is distributed"
+    },
+    {
+      "val_window": "shard_0001.bin:3832852",
+      "matched_in": "shard_0036.bin",
+      "pos": 34448,
+      "text": " License for the specific language governing permissions and\n// limitations under the"
+    },
+    {
+      "val_window": "shard_0001.bin:108353",
+      "matched_in": "shard_0036.bin",
+      "pos": 34620,
+      "text": " Permission is hereby granted, free of charge, to any person obtaining"
+    },
+    {
+      "val_window": "shard_0000.bin:2247808",
+      "matched_in": "shard_0036.bin",
+      "pos": 50915,
+      "text": "     http://www.apache.org/licenses/LICENSE-"
+    },
+    {
+      "val_window": "shard_0001.bin:1123043",
+      "matched_in": "shard_0036.bin",
+      "pos": 50925,
+      "text": "/LICENSE-2.0\n * Unless required by applicable law"
+    }
+  ],
+  "sample_examples": [
+    {
+      "val_window": "shard_0002.bin:479387",
+      "matched_in": "shard_1300.bin",
+      "pos": 3059013,
+      "text": "\n    public boolean equals(Object obj) {\n        if"
+    },
+    {
+      "val_window": "shard_0002.bin:1544098",
+      "matched_in": "shard_1278.bin",
+      "pos": 1939660,
+      "text": "meta[name=\"csrf-token\"]').attr('content"
+    },
+    {
+      "val_window": "shard_0002.bin:593032",
+      "matched_in": "shard_1654.bin",
+      "pos": 2184674,
+      "text": ", software\n * distributed under the License is distributed on an \""
+    },
+    {
+      "val_window": "shard_0001.bin:1545836",
+      "matched_in": "shard_1654.bin",
+      "pos": 2184714,
+      "text": " specific language governing permissions and\n * limitations under the License.\n"
+    },
+    {
+      "val_window": "shard_0001.bin:108353",
+      "matched_in": "shard_1038.bin",
+      "pos": 763222,
+      "text": " Permission is hereby granted, free of charge, to any person obtaining"
+    },
+    {
+      "val_window": "shard_0002.bin:479387",
+      "matched_in": "shard_1302.bin",
+      "pos": 1724808,
+      "text": "\n    public boolean equals(Object obj) {\n        if"
+    },
+    {
+      "val_window": "shard_0002.bin:479387",
+      "matched_in": "shard_1302.bin",
+      "pos": 1725548,
+      "text": "\n    public boolean equals(Object obj) {\n        if"
+    },
+    {
+      "val_window": "shard_0004.bin:1240313",
+      "matched_in": "shard_1658.bin",
+      "pos": 3912208,
+      "text": " deletions can be implemented based on these set functions. These"
+    },
+    {
+      "val_window": "shard_0001.bin:108353",
+      "matched_in": "shard_1368.bin",
+      "pos": 180756,
+      "text": " Permission is hereby granted, free of charge, to any person obtaining"
+    },
+    {
+      "val_window": "shard_0002.bin:2062861",
+      "matched_in": "shard_1368.bin",
+      "pos": 283127,
+      "text": ",11,11,11,11,11,11,"
+    },
+    {
+      "val_window": "shard_0002.bin:2062861",
+      "matched_in": "shard_1368.bin",
+      "pos": 283129,
+      "text": ",11,11,11,11,11,11,"
+    },
+    {
+      "val_window": "shard_0002.bin:2062861",
+      "matched_in": "shard_1368.bin",
+      "pos": 283131,
+      "text": ",11,11,11,11,11,11,"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+\begin{table}[t]
+\centering
+\caption{Statistics at initialisation (seed 0, first validation batch of four 1,024-token sequences). Dense-6 and Loop-6$\times$2 differ in the number of layer applications, so their output projections have different target scales (Section~\ref{sec:models}). Residual statistics are taken after the stated layer application; the gradient of a shared block is the sum over its applications.}
+\label{tab:init}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrr}
+\toprule
+Quantity & Dense-6 & Loop-6$\times$2 \\
+\midrule
+Layer applications per token & 6 & 12 \\
+Unique blocks & 6 & 6 \\
+Output-projection std, target $0.02/\sqrt{2L}$ & 0.0058 & 0.0041 \\
+Output-projection std, measured (block 0) & 0.0058 & 0.0041 \\
+Residual std after application 1 & 0.048 & 0.061 \\
+Residual std after last application & 0.162 & 0.285 \\
+Residual variance after last application & 0.026 & 0.081 \\
+Initial loss (nats) & 9.788 & 9.797 \\
+Gradient norm, total & 10.086 & 21.936 \\
+Gradient norm, mean per unique block & 3.775 & 8.486 \\
+\bottomrule
+\end{tabular}
+\end{table}

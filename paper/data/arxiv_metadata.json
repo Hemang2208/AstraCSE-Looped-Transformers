@@ -1,0 +1,457 @@
+{
+ "2104.09864": {
+  "title": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
+  "authors": [
+   "Jianlin Su",
+   "Yu Lu",
+   "Shengfeng Pan",
+   "Ahmed Murtadha",
+   "Bo Wen",
+   "Yunfeng Liu"
+  ],
+  "year": "2021",
+  "journal_ref": "",
+  "comment": "fixed some typos"
+ },
+ "1711.05101": {
+  "title": "Decoupled Weight Decay Regularization",
+  "authors": [
+   "Ilya Loshchilov",
+   "Frank Hutter"
+  ],
+  "year": "2017",
+  "journal_ref": "",
+  "comment": "Published as a conference paper at ICLR 2019"
+ },
+ "1706.03762": {
+  "title": "Attention Is All You Need",
+  "authors": [
+   "Ashish Vaswani",
+   "Noam Shazeer",
+   "Niki Parmar",
+   "Jakob Uszkoreit",
+   "Llion Jones",
+   "Aidan N. Gomez",
+   "Lukasz Kaiser",
+   "Illia Polosukhin"
+  ],
+  "year": "2017",
+  "journal_ref": "",
+  "comment": "15 pages, 5 figures"
+ },
+ "2502.02737": {
+  "title": "SmolLM2: When Smol Goes Big -- Data-Centric Training of a Small Language Model",
+  "authors": [
+   "Loubna Ben Allal",
+   "Anton Lozhkov",
+   "Elie Bakouch",
+   "Gabriel Martín Blázquez",
+   "Guilherme Penedo",
+   "Lewis Tunstall",
+   "Andrés Marafioti",
+   "Hynek Kydlíček",
+   "Agustín Piqueres Lajarín",
+   "Vaibhav Srivastav",
+   "Joshua Lochner",
+   "Caleb Fahlgren",
+   "Xuan-Son Nguyen",
+   "Clémentine Fourrier",
+   "Ben Burtenshaw",
+   "Hugo Larcher",
+   "Haojun Zhao",
+   "Cyril Zakka",
+   "Mathieu Morlon",
+   "Colin Raffel",
+   "Leandro von Werra",
+   "Thomas Wolf"
+  ],
+  "year": "2025",
+  "journal_ref": "",
+  "comment": ""
+ },
+ "2001.08361": {
+  "title": "Scaling Laws for Neural Language Models",
+  "authors": [
+   "Jared Kaplan",
+   "Sam McCandlish",
+   "Tom Henighan",
+   "Tom B. Brown",
+   "Benjamin Chess",
+   "Rewon Child",
+   "Scott Gray",
+   "Alec Radford",
+   "Jeffrey Wu",
+   "Dario Amodei"
+  ],
+  "year": "2020",
+  "journal_ref": "",
+  "comment": "19 pages, 15 figures"
+ },
+ "2002.05202": {
+  "title": "GLU Variants Improve Transformer",
+  "authors": [
+   "Noam Shazeer"
+  ],
+  "year": "2020",
+  "journal_ref": "",
+  "comment": ""
+ },
+ "2005.14165": {
+  "title": "Language Models are Few-Shot Learners",
+  "authors": [
+   "Tom B. Brown",
+   "Benjamin Mann",
+   "Nick Ryder",
+   "Melanie Subbiah",
+   "Jared Kaplan",
+   "Prafulla Dhariwal",
+   "Arvind Neelakantan",
+   "Pranav Shyam",
+   "Girish Sastry",
+   "Amanda Askell",
+   "Sandhini Agarwal",
+   "Ariel Herbert-Voss",
+   "Gretchen Krueger",
+   "Tom Henighan",
+   "Rewon Child",
+   "Aditya Ramesh",
+   "Daniel M. Ziegler",
+   "Jeffrey Wu",
+   "Clemens Winter",
+   "Christopher Hesse",
+   "Mark Chen",
+   "Eric Sigler",
+   "Mateusz Litwin",
+   "Scott Gray",
+   "Benjamin Chess",
+   "Jack Clark",
+   "Christopher Berner",
+   "Sam McCandlish",
+   "Alec Radford",
+   "Ilya Sutskever",
+   "Dario Amodei"
+  ],
+  "year": "2020",
+  "journal_ref": "",
+  "comment": "40+32 pages"
+ },
+ "2211.15533": {
+  "title": "The Stack: 3 TB of permissively licensed source code",
+  "authors": [
+   "Denis Kocetkov",
+   "Raymond Li",
+   "Loubna Ben Allal",
+   "Jia Li",
+   "Chenghao Mou",
+   "Carlos Muñoz Ferrandis",
+   "Yacine Jernite",
+   "Margaret Mitchell",
+   "Sean Hughes",
+   "Thomas Wolf",
+   "Dzmitry Bahdanau",
+   "Leandro von Werra",
+   "Harm de Vries"
+  ],
+  "year": "2022",
+  "journal_ref": "",
+  "comment": ""
+ },
+ "2311.12424": {
+  "title": "Looped Transformers are Better at Learning Learning Algorithms",
+  "authors": [
+   "Liu Yang",
+   "Kangwook Lee",
+   "Robert Nowak",
+   "Dimitris Papailiopoulos"
+  ],
+  "year": "2023",
+  "journal_ref": "",
+  "comment": "Accepted for publication at ICLR 2024"
+ },
+ "2410.20672": {
+  "title": "Relaxed Recursive Transformers: Effective Parameter Sharing with Layer-wise LoRA",
+  "authors": [
+   "Sangmin Bae",
+   "Adam Fisch",
+   "Hrayr Harutyunyan",
+   "Ziwei Ji",
+   "Seungyeon Kim",
+   "Tal Schuster"
+  ],
+  "year": "2024",
+  "journal_ref": "",
+  "comment": "ICLR 2025; 49 pages, 17 figures, 19 tables"
+ },
+ "1508.07909": {
+  "title": "Neural Machine Translation of Rare Words with Subword Units",
+  "authors": [
+   "Rico Sennrich",
+   "Barry Haddow",
+   "Alexandra Birch"
+  ],
+  "year": "2015",
+  "journal_ref": "",
+  "comment": "accepted at ACL 2016; new in this version: figure 3"
+ },
+ "1909.11942": {
+  "title": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+  "authors": [
+   "Zhenzhong Lan",
+   "Mingda Chen",
+   "Sebastian Goodman",
+   "Kevin Gimpel",
+   "Piyush Sharma",
+   "Radu Soricut"
+  ],
+  "year": "2019",
+  "journal_ref": "",
+  "comment": ""
+ },
+ "1910.07467": {
+  "title": "Root Mean Square Layer Normalization",
+  "authors": [
+   "Biao Zhang",
+   "Rico Sennrich"
+  ],
+  "year": "2019",
+  "journal_ref": "",
+  "comment": "NeurIPS 2019"
+ },
+ "2203.15556": {
+  "title": "Training Compute-Optimal Large Language Models",
+  "authors": [
+   "Jordan Hoffmann",
+   "Sebastian Borgeaud",
+   "Arthur Mensch",
+   "Elena Buchatskaya",
+   "Trevor Cai",
+   "Eliza Rutherford",
+   "Diego de Las Casas",
+   "Lisa Anne Hendricks",
+   "Johannes Welbl",
+   "Aidan Clark",
+   "Tom Hennigan",
+   "Eric Noland",
+   "Katie Millican",
+   "George van den Driessche",
+   "Bogdan Damoc",
+   "Aurelia Guy",
+   "Simon Osindero",
+   "Karen Simonyan",
+   "Erich Elsen",
+   "Jack W. Rae",
+   "Oriol Vinyals",
+   "Laurent Sifre"
+  ],
+  "year": "2022",
+  "journal_ref": "",
+  "comment": ""
+ },
+ "2301.13196": {
+  "title": "Looped Transformers as Programmable Computers",
+  "authors": [
+   "Angeliki Giannou",
+   "Shashank Rajput",
+   "Jy-yong Sohn",
+   "Kangwook Lee",
+   "Jason D. Lee",
+   "Dimitris Papailiopoulos"
+  ],
+  "year": "2023",
+  "journal_ref": "",
+  "comment": ""
+ },
+ "2406.17557": {
+  "title": "The FineWeb Datasets: Decanting the Web for the Finest Text Data at Scale",
+  "authors": [
+   "Guilherme Penedo",
+   "Hynek Kydlíček",
+   "Loubna Ben allal",
+   "Anton Lozhkov",
+   "Margaret Mitchell",
+   "Colin Raffel",
+   "Leandro Von Werra",
+   "Thomas Wolf"
+  ],
+  "year": "2024",
+  "journal_ref": "",
+  "comment": ""
+ },
+ "1807.03819": {
+  "title": "Universal Transformers",
+  "authors": [
+   "Mostafa Dehghani",
+   "Stephan Gouws",
+   "Oriol Vinyals",
+   "Jakob Uszkoreit",
+   "Łukasz Kaiser"
+  ],
+  "year": "2018",
+  "journal_ref": "",
+  "comment": "Published at ICLR2019"
+ },
+ "1608.05859": {
+  "title": "Using the Output Embedding to Improve Language Models",
+  "authors": [
+   "Ofir Press",
+   "Lior Wolf"
+  ],
+  "year": "2016",
+  "journal_ref": "",
+  "comment": "To appear in EACL 2017"
+ },
+ "2502.05171": {
+  "title": "Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach",
+  "authors": [
+   "Jonas Geiping",
+   "Sean McLeish",
+   "Neel Jain",
+   "John Kirchenbauer",
+   "Siddharth Singh",
+   "Brian R. Bartoldson",
+   "Bhavya Kailkhura",
+   "Abhinav Bhatele",
+   "Tom Goldstein"
+  ],
+  "year": "2025",
+  "journal_ref": "",
+  "comment": "The model is available at https://huggingface.co/tomg-group-umd/huginn-0125. Code and data recipe can be found at https://github.com/seal-rg/recurrent-pretraining"
+ },
+ "2502.17416": {
+  "title": "Reasoning with Latent Thoughts: On the Power of Looped Transformers",
+  "authors": [
+   "Nikunj Saunshi",
+   "Nishanth Dikkala",
+   "Zhiyuan Li",
+   "Sanjiv Kumar",
+   "Sashank J. Reddi"
+  ],
+  "year": "2025",
+  "journal_ref": "",
+  "comment": "ICLR 2025"
+ },
+ "2402.14905": {
+  "title": "MobileLLM: Optimizing Sub-billion Parameter Language Models for On-Device Use Cases",
+  "authors": [
+   "Zechun Liu",
+   "Changsheng Zhao",
+   "Forrest Iandola",
+   "Chen Lai",
+   "Yuandong Tian",
+   "Igor Fedorov",
+   "Yunyang Xiong",
+   "Ernie Chang",
+   "Yangyang Shi",
+   "Raghuraman Krishnamoorthi",
+   "Liangzhen Lai",
+   "Vikas Chandra"
+  ],
+  "year": "2024",
+  "journal_ref": "",
+  "comment": "ICML 2024. Code is available at https://github.com/facebookresearch/MobileLLM"
+ },
+ "2107.06499": {
+  "title": "Deduplicating Training Data Makes Language Models Better",
+  "authors": [
+   "Katherine Lee",
+   "Daphne Ippolito",
+   "Andrew Nystrom",
+   "Chiyuan Zhang",
+   "Douglas Eck",
+   "Chris Callison-Burch",
+   "Nicholas Carlini"
+  ],
+  "year": "2021",
+  "journal_ref": "",
+  "comment": "Accepted to ACL 2022"
+ },
+ "2009.03300": {
+  "title": "Measuring Massive Multitask Language Understanding",
+  "authors": [
+   "Dan Hendrycks",
+   "Collin Burns",
+   "Steven Basart",
+   "Andy Zou",
+   "Mantas Mazeika",
+   "Dawn Song",
+   "Jacob Steinhardt"
+  ],
+  "year": "2020",
+  "journal_ref": "",
+  "comment": "ICLR 2021; the test and code is available at https://github.com/hendrycks/test"
+ },
+ "2104.06022": {
+  "title": "Lessons on Parameter Sharing across Layers in Transformers",
+  "authors": [
+   "Sho Takase",
+   "Shun Kiyono"
+  ],
+  "year": "2021",
+  "journal_ref": "",
+  "comment": "SustaiNLP 2023"
+ },
+ "2506.05209": {
+  "title": "The Common Pile v0.1: An 8TB Dataset of Public Domain and Openly Licensed Text",
+  "authors": [
+   "Nikhil Kandpal",
+   "Brian Lester",
+   "Colin Raffel",
+   "Sebastian Majstorovic",
+   "Stella Biderman",
+   "Baber Abbasi",
+   "Luca Soldaini",
+   "Enrico Shippole",
+   "A. Feder Cooper",
+   "Aviya Skowron",
+   "John Kirchenbauer",
+   "Shayne Longpre",
+   "Lintang Sutawika",
+   "Alon Albalak",
+   "Zhenlin Xu",
+   "Guilherme Penedo",
+   "Loubna Ben Allal",
+   "Elie Bakouch",
+   "John David Pressman",
+   "Honglu Fan",
+   "Dashiell Stander",
+   "Guangyu Song",
+   "Aaron Gokaslan",
+   "Tom Goldstein",
+   "Brian R. Bartoldson",
+   "Bhavya Kailkhura",
+   "Tyler Murray"
+  ],
+  "year": "2025",
+  "journal_ref": "",
+  "comment": ""
+ },
+ "1912.01703": {
+  "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library",
+  "authors": [
+   "Adam Paszke",
+   "Sam Gross",
+   "Francisco Massa",
+   "Adam Lerer",
+   "James Bradbury",
+   "Gregory Chanan",
+   "Trevor Killeen",
+   "Zeming Lin",
+   "Natalia Gimelshein",
+   "Luca Antiga",
+   "Alban Desmaison",
+   "Andreas Köpf",
+   "Edward Yang",
+   "Zach DeVito",
+   "Martin Raison",
+   "Alykhan Tejani",
+   "Sasank Chilamkurthy",
+   "Benoit Steiner",
+   "Lu Fang",
+   "Junjie Bai",
+   "Soumith Chintala"
+  ],
+  "year": "2019",
+  "journal_ref": "",
+  "comment": "12 pages, 3 figures, NeurIPS 2019"
+ }
+}

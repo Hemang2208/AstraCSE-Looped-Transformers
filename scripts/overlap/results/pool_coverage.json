@@ -1,0 +1,126 @@
+{
+  "control": {
+    "stats": {
+      "shards": 75,
+      "tokens": 314572800,
+      "windows": 314571900,
+      "matched_windows": 9855817,
+      "runs_ge_30": 103187,
+      "runs_ge_100": 28117,
+      "runs_ge_200": 6506,
+      "max_run_tokens": 15020
+    },
+    "top_runs": [
+      {
+        "shard": "shard_0056.bin",
+        "start": 552795,
+        "tokens": 15020,
+        "text": "<doc>/******************************************************************************\n * Copyright(c) 2009-2012  Realtek Corporation.\n * This program is free software; you can redistribute it and/or modify it\n * under the terms of version 2 of the GNU General Public License as\n * published by the Fre"
+      },
+      {
+        "shard": "shard_0200.bin",
+        "start": 1834496,
+        "tokens": 7859,
+        "text": "]\n                    fdf.loc[start]['PROB_NWEAR_SMOOTH'] = tmp_fdf.loc[start][prob_wear]\n                    fdf.loc[start:end, 'PREDICTED_SMOOTH'] = 2\n                    fdf.loc[start:end, 'PROB_WEAR_SMOOTH'] = tmp_fdf.loc[start:end][prob_wear]\n                    fdf.loc[start:end, 'PROB_SLEEP_S"
+      },
+      {
+        "shard": "shard_0075.bin",
+        "start": 1227837,
+        "tokens": 5257,
+        "text": "lock->TryLock()) {\n        return error(\"Error while attempting to lock directory %s: %s\", directory.string(), lock->GetReason());\n    if (!probe_only) {\n        // Lock successful and we're not just probing, put it into the map\n        dir_locks.emplace(pathLockFile.string(), std::move(lock));\n    "
+      },
+      {
+        "shard": "shard_0080.bin",
+        "start": 134450,
+        "tokens": 5257,
+        "text": "lock->TryLock()) {\n        return error(\"Error while attempting to lock directory %s: %s\", directory.string(), lock->GetReason());\n    if (!probe_only) {\n        // Lock successful and we're not just probing, put it into the map\n        dir_locks.emplace(pathLockFile.string(), std::move(lock));\n    "
+      },
+      {
+        "shard": "shard_0145.bin",
+        "start": 2806561,
+        "tokens": 5006,
+        "text": "/_version.py\"\n    cfg.verbose = False\n    return cfg\nclass NotThisMethod(Exception):\n    \"\"\"Exception raised if a method is not valid for the current scenario.\"\"\"\nLONG_VERSION_PY = {}\nHANDLERS = {}\ndef register_vcs_handler(vcs, method):  # decorator\n    \"\"\"Decorator to mark a method as the handler f"
+      },
+      {
+        "shard": "shard_0184.bin",
+        "start": 877521,
+        "tokens": 5006,
+        "text": "/_version.py\"\n    cfg.verbose = False\n    return cfg\nclass NotThisMethod(Exception):\n    \"\"\"Exception raised if a method is not valid for the current scenario.\"\"\"\nLONG_VERSION_PY = {}\nHANDLERS = {}\ndef register_vcs_handler(vcs, method):  # decorator\n    \"\"\"Decorator to mark a method as the handler f"
+      },
+      {
+        "shard": "shard_0066.bin",
+        "start": 2233391,
+        "tokens": 4855,
+        "text": ".h\"\n#ifdef ENABLE_WALLET\n#include \"wallet/wallet_ismine.h\"\n#include <vector>\n#include <boost/test/unit_test.hpp>\nusing namespace std;\nstatic std::vector<unsigned char>\nSerialize(const CScript& s)\n    std::vector<unsigned char> sSerialized(s.begin(), s.end());\n    return sSerialized;\nstatic bool\nVeri"
+      },
+      {
+        "shard": "shard_0056.bin",
+        "start": 567846,
+        "tokens": 4667,
+        "text": ", 0};\n\ts8 cck_index_old = 0;\n\tu8 index;\n\tint i;\n\tbool is2t = IS_92D_SINGLEPHY(rtlhal->version);\n\tu8 ofdm_min_index = 6, ofdm_min_index_internal_pa = 3, rf;\n\tu8 indexforchannel =\n\t    rtl92d_get_rightchnlplace_for_iqk(rtlphy->current_channel);\n\tu8 index_mapping[5][INDEX_MAPPING_NUM] = {\n\t\t/* 5G, path"
+      }
+    ]
+  },
+  "sample": {
+    "stats": {
+      "shards": 75,
+      "tokens": 314572800,
+      "windows": 314571900,
+      "matched_windows": 329737,
+      "runs_ge_30": 2847,
+      "runs_ge_100": 77,
+      "runs_ge_200": 11,
+      "max_run_tokens": 346
+    },
+    "top_runs": [
+      {
+        "shard": "shard_1658.bin",
+        "start": 2843340,
+        "tokens": 346,
+        "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia"
+      },
+      {
+        "shard": "shard_1038.bin",
+        "start": 24277,
+        "tokens": 301,
+        "text": "════════════════════════════════════════════════════════════════════════════════════════════════════\n"
+      },
+      {
+        "shard": "shard_1075.bin",
+        "start": 457321,
+        "tokens": 301,
+        "text": "════════════════════════════════════════════════════════════════════════════════════════════════════\n"
+      },
+      {
+        "shard": "shard_1595.bin",
+        "start": 3006816,
+        "tokens": 300,
+        "text": "��═══════════════════════════════════════════════════════════════════════════════════════════════════\n"
+      },
+      {
+        "shard": "shard_1595.bin",
+        "start": 3010258,
+        "tokens": 300,
+        "text": "��═══════════════════════════════════════════════════════════════════════════════════════════════════\n"
+      },
+      {
+        "shard": "shard_1457.bin",
+        "start": 2619845,
+        "tokens": 269,
+        "text": ".\n    Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n    1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\n    2. Redistributi"
+      },
+      {
+        "shard": "shard_1075.bin",
+        "start": 335450,
+        "tokens": 249,
+        "text": "��══════════════════════════════════════════════════════════════════════════════════\n"
+      },
+      {
+        "shard": "shard_1219.bin",
+        "start": 2371649,
+        "tokens": 228,
+        "text": " 2005 Dan Fabulich and Nelson Sproul (with help from Pat Lightbody) made an offer to accept a series of patches that would transform Selenium-RC into what it became best known for. In the same meeting, the steering of Selenium as a project would continue as a committee, with Huggins and Hammant bein"
+      }
+    ]
+  }
+}

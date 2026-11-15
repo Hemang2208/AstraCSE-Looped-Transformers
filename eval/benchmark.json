@@ -1,0 +1,169 @@
+{
+  "version": "1.0",
+  "description": "AstraCSE-100M evaluation benchmark — 10-subject CS domain (Architecture.md §24). Authored during Phase 1 so contamination checks can run before corpus is finalized.",
+  "subjects": [
+    "computer_programming",
+    "data_structures",
+    "algorithms",
+    "operating_systems",
+    "computer_networks",
+    "database_systems",
+    "computer_architecture",
+    "theory_of_computation",
+    "software_engineering",
+    "cybersecurity"
+  ],
+  "categories": ["conceptual", "application", "code_pseudocode", "reasoning", "mcq"],
+  "questions": [
+    {
+      "id": "prog_001", "subject": "computer_programming", "category": "mcq",
+      "question": "Which of the following correctly describes a closure in Python?",
+      "choices": [
+        "A) A function that takes no arguments",
+        "B) A nested function that captures variables from its enclosing scope",
+        "C) A class method decorated with @staticmethod",
+        "D) A generator function that uses yield"
+      ],
+      "answer": "B",
+      "explanation": "A closure is a nested function that remembers variables from its enclosing scope even after that scope has finished executing."
+    },
+    {
+      "id": "prog_002", "subject": "computer_programming", "category": "conceptual",
+      "question": "Explain the difference between pass-by-value and pass-by-reference. Give an example showing when the distinction matters.",
+      "answer": "In pass-by-value a copy of the argument is made; changes inside the function do not affect the caller's variable. In pass-by-reference the function receives a reference to the same memory location; changes inside the function affect the caller. The distinction matters when a function needs to mutate the caller's data vs. work on a local copy.",
+      "answer_keywords": ["copy", "reference", "mutation", "caller"]
+    },
+    {
+      "id": "ds_001", "subject": "data_structures", "category": "mcq",
+      "question": "What is the worst-case time complexity of insertion into a binary search tree (BST)?",
+      "choices": ["A) O(1)", "B) O(log n)", "C) O(n)", "D) O(n log n)"],
+      "answer": "C",
+      "explanation": "In the worst case (a completely unbalanced/degenerate BST), the tree degenerates into a linked list and insertion is O(n)."
+    },
+    {
+      "id": "ds_002", "subject": "data_structures", "category": "reasoning",
+      "question": "A stack is implemented using a singly linked list. Describe the time and space complexity of push, pop, and peek operations.",
+      "answer": "Push, pop, and peek are all O(1) time when implemented at the head of the linked list. Space is O(n) for n elements. No reallocation is needed unlike array-based stacks.",
+      "answer_keywords": ["O(1)", "head", "linked list", "O(n) space"]
+    },
+    {
+      "id": "algo_001", "subject": "algorithms", "category": "mcq",
+      "question": "Which algorithm is most appropriate for finding the shortest path in an unweighted graph?",
+      "choices": ["A) Depth-First Search", "B) Breadth-First Search", "C) Dijkstra's algorithm", "D) Bellman-Ford"],
+      "answer": "B",
+      "explanation": "BFS explores nodes layer by layer, guaranteeing the shortest path (fewest edges) in an unweighted graph."
+    },
+    {
+      "id": "algo_002", "subject": "algorithms", "category": "code_pseudocode",
+      "question": "Write pseudocode for merge sort on an array A[0..n-1].",
+      "answer": "MERGE-SORT(A, lo, hi):\n  if lo >= hi: return\n  mid = (lo + hi) / 2\n  MERGE-SORT(A, lo, mid)\n  MERGE-SORT(A, mid+1, hi)\n  MERGE(A, lo, mid, hi)\n\nTime: O(n log n). Space: O(n) auxiliary.",
+      "answer_keywords": ["divide", "merge", "O(n log n)", "recursive"]
+    },
+    {
+      "id": "os_001", "subject": "operating_systems", "category": "mcq",
+      "question": "Which page replacement algorithm suffers from Belady's anomaly?",
+      "choices": ["A) LRU", "B) Optimal", "C) FIFO", "D) Clock"],
+      "answer": "C",
+      "explanation": "FIFO can exhibit Belady's anomaly — increasing the number of frames can sometimes increase page faults."
+    },
+    {
+      "id": "os_002", "subject": "operating_systems", "category": "conceptual",
+      "question": "Describe the four necessary conditions for deadlock (Coffman conditions).",
+      "answer": "1. Mutual exclusion: at least one resource is held in a non-shareable mode. 2. Hold and wait: a process holds at least one resource and waits for additional resources. 3. No preemption: resources cannot be forcibly taken from a process. 4. Circular wait: a set of processes each wait for a resource held by the next process in the set.",
+      "answer_keywords": ["mutual exclusion", "hold and wait", "no preemption", "circular wait"]
+    },
+    {
+      "id": "net_001", "subject": "computer_networks", "category": "mcq",
+      "question": "At which OSI layer does TCP operate?",
+      "choices": ["A) Layer 2 (Data Link)", "B) Layer 3 (Network)", "C) Layer 4 (Transport)", "D) Layer 5 (Session)"],
+      "answer": "C",
+      "explanation": "TCP is a transport-layer protocol providing reliable, ordered, error-checked delivery."
+    },
+    {
+      "id": "net_002", "subject": "computer_networks", "category": "reasoning",
+      "question": "Explain why TCP's three-way handshake uses three messages rather than two.",
+      "answer": "Two messages (SYN + SYN-ACK) only confirm that the client can send and the server can receive and respond. The third message (ACK from client) confirms the server's sequence number was received and that the client can also receive — establishing bidirectional reliability before data flows.",
+      "answer_keywords": ["SYN", "SYN-ACK", "ACK", "bidirectional", "sequence number"]
+    },
+    {
+      "id": "db_001", "subject": "database_systems", "category": "mcq",
+      "question": "Which normal form eliminates transitive functional dependencies?",
+      "choices": ["A) 1NF", "B) 2NF", "C) 3NF", "D) BCNF"],
+      "answer": "C",
+      "explanation": "Third Normal Form (3NF) requires that no non-key attribute is transitively dependent on the primary key."
+    },
+    {
+      "id": "db_002", "subject": "database_systems", "category": "application",
+      "question": "Write a SQL query to find the names of employees who earn more than the average salary in their department.",
+      "answer": "SELECT e.name FROM employees e WHERE e.salary > (SELECT AVG(salary) FROM employees WHERE department_id = e.department_id);",
+      "answer_keywords": ["correlated subquery", "AVG", "department_id"]
+    },
+    {
+      "id": "arch_001", "subject": "computer_architecture", "category": "mcq",
+      "question": "What does the acronym RISC stand for, and what is its key design philosophy?",
+      "choices": [
+        "A) Reduced Instruction Set Computer — simple, fixed-length instructions executable in one clock cycle",
+        "B) Rapid Instruction Set Computer — fast variable-length instructions",
+        "C) Registered Instruction Set Computer — all operations use registers only",
+        "D) Reduced Instruction Set Controller — microcontroller-specific design"
+      ],
+      "answer": "A",
+      "explanation": "RISC emphasizes a small set of simple, fixed-length instructions that each complete in one clock cycle, enabling high clock speeds and pipelining."
+    },
+    {
+      "id": "arch_002", "subject": "computer_architecture", "category": "conceptual",
+      "question": "Explain the difference between a cache miss and a cache hit, and describe the three types of cache misses.",
+      "answer": "A cache hit occurs when requested data is found in cache (fast). A cache miss requires fetching from slower memory. The three types are: (1) Compulsory/cold miss — first access to a block, unavoidable. (2) Capacity miss — cache too small to hold all needed blocks. (3) Conflict miss — multiple blocks map to the same cache set, evicting each other.",
+      "answer_keywords": ["compulsory", "capacity", "conflict", "hit", "miss"]
+    },
+    {
+      "id": "toc_001", "subject": "theory_of_computation", "category": "mcq",
+      "question": "Which of the following languages is NOT recognized by any Turing machine?",
+      "choices": [
+        "A) The set of all strings accepted by some DFA",
+        "B) The halting problem language",
+        "C) The complement of the halting problem language",
+        "D) All context-free languages"
+      ],
+      "answer": "C",
+      "explanation": "The complement of the halting problem is not Turing-recognizable (not even recursively enumerable). The halting problem itself is Turing-recognizable (RE) but not decidable."
+    },
+    {
+      "id": "toc_002", "subject": "theory_of_computation", "category": "reasoning",
+      "question": "State the pumping lemma for regular languages and sketch how you would use it to prove that L = {a^n b^n | n >= 1} is not regular.",
+      "answer": "Pumping Lemma: for any regular language L, there exists p such that any string s in L with |s|>=p can be written as s=xyz with |xy|<=p, |y|>=1, and xy^i z in L for all i>=0. Proof sketch: assume L is regular, choose s=a^p b^p. Then xy must lie entirely within the a-prefix. Pumping y increases the number of a's without changing b's, giving a^(p+k) b^p not in L — contradiction.",
+      "answer_keywords": ["pumping length", "contradiction", "a^n b^n", "xy within a-prefix"]
+    },
+    {
+      "id": "se_001", "subject": "software_engineering", "category": "mcq",
+      "question": "Which SOLID principle states that a class should have only one reason to change?",
+      "choices": [
+        "A) Open/Closed Principle",
+        "B) Single Responsibility Principle",
+        "C) Liskov Substitution Principle",
+        "D) Interface Segregation Principle"
+      ],
+      "answer": "B",
+      "explanation": "The Single Responsibility Principle (SRP) says a class should have one, and only one, reason to change — meaning it should encapsulate only one responsibility."
+    },
+    {
+      "id": "se_002", "subject": "software_engineering", "category": "conceptual",
+      "question": "Describe the difference between unit testing, integration testing, and system testing.",
+      "answer": "Unit testing verifies individual functions or classes in isolation (fast, no external dependencies). Integration testing verifies that multiple components work together correctly (may involve databases, APIs). System testing verifies the entire system end-to-end against requirements (slowest, closest to user conditions).",
+      "answer_keywords": ["isolation", "integration", "end-to-end", "components"]
+    },
+    {
+      "id": "sec_001", "subject": "cybersecurity", "category": "mcq",
+      "question": "Which attack involves injecting malicious SQL statements into an input field to manipulate a database?",
+      "choices": ["A) Cross-Site Scripting (XSS)", "B) SQL Injection", "C) CSRF", "D) Buffer Overflow"],
+      "answer": "B",
+      "explanation": "SQL Injection exploits insufficient input sanitization to inject SQL code that can read, modify, or delete database data."
+    },
+    {
+      "id": "sec_002", "subject": "cybersecurity", "category": "application",
+      "question": "Explain how HTTPS prevents a man-in-the-middle attack. What role do certificates play?",
+      "answer": "HTTPS uses TLS to encrypt traffic. During the handshake the server presents a certificate signed by a trusted Certificate Authority (CA). The client verifies the certificate chain against its trusted CA store — this proves the server's identity. An attacker intercepting the connection cannot forge a valid certificate for the target domain without the CA's private key, so their interception is detectable.",
+      "answer_keywords": ["TLS", "certificate", "CA", "public key", "man-in-the-middle"]
+    }
+  ]
+}

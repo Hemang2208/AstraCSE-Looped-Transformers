@@ -1,0 +1,38 @@
+# Data — never commit raw/processed corpus or tokenized shards
+data/raw/
+data/processed/
+data/cleaned/
+data/deduped/
+data/shards/train/
+data/shards/val/
+data/*.bin
+data/*.npy
+
+# Tokenizer artifacts (large binary files — regenerable from scripts)
+tokenizer/vocab.json
+tokenizer/merges.txt
+tokenizer/*.model
+# Keep metadata (version hash + stats) — these ARE committed
+# tokenizer/tokenizer_version.json  <-- committed
+# tokenizer/bytes_per_token.json    <-- committed
+
+# Checkpoints and logs
+checkpoints/
+*.pt
+*.ckpt
+logs/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Env / secrets
+.env
+*.pem
+
+# OS
+.DS_Store
+Thumbs.db
