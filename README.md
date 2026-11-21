@@ -1,9 +1,35 @@
 # AstraCSE
 
+[![Paper DOI](https://img.shields.io/badge/Paper%20DOI-10.5281%2Fzenodo.24392658-blue)](https://doi.org/10.5281/zenodo.24392658) [![Code DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24413831.svg)](https://doi.org/10.5281/zenodo.24413831)
+
 Small decoder-only language models trained from scratch on computer-science text. The project studies **depth-wise weight sharing** ("loop" models, which apply a few unique transformer blocks several times) against dense models with the same number of unique parameters and against compute-matched dense baselines.
 
 **Authors:** Abhay Tripathi (NyayaVeda AI and University of Lucknow), Ayush Kumar Tiwari, Ankit Gupta, Aaftab Ahmad, Abhinav Tripathi and Zeeshan Ali Siddiqui (University of Lucknow). Contact: abhay@nyayaveda.co.in
 **Status:** all planned training runs are complete (19 of 19). The IEEE-format paper draft is in [`paper/`](paper/).
+
+---
+
+## Paper & Citation
+
+- **Paper:** When Is Depth-Wise Weight Sharing Costly? A Controlled Study in Small Computer-Science Language Models
+- **Authors:** Abhay Tripathi, Ayush Kumar Tiwari, Ankit Gupta, Aaftab Ahmad, Abhinav Tripathi, Zeeshan Ali Siddiqui
+- **Preprint DOI:** https://doi.org/10.5281/zenodo.24392658
+- **Software release DOI (v1.0.0):** https://doi.org/10.5281/zenodo.24413831
+
+BibTeX (preprint):
+
+```bibtex
+@misc{tripathi2026depthwise,
+  title     = {When Is Depth-Wise Weight Sharing Costly? A Controlled Study in Small Computer-Science Language Models},
+  author    = {Tripathi, Abhay and Tiwari, Ayush Kumar and Gupta, Ankit and Ahmad, Aaftab and Tripathi, Abhinav and Siddiqui, Zeeshan Ali},
+  year      = {2026},
+  month     = nov,
+  publisher = {Zenodo},
+  note      = {Preprint},
+  doi       = {10.5281/zenodo.24392658},
+  url       = {https://doi.org/10.5281/zenodo.24392658}
+}
+```
 
 ---
 
